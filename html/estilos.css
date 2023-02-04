@@ -1,0 +1,92 @@
+#titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.imag_circular {
+    border-radius: 50%;
+}
+
+div#foto {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+/* estilo de botones
+**/
+.menu_retractil {
+    background-color: #4d42d4;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+   
+
+   
+    /*
+    border: none;
+    outline: none;
+    font-size: 15px;
+    **/
+}
+
+.active,
+.menu_retractil:hover {
+    background-color: magenta;
+ 
+}
+
+
+.contenido {
+    padding: 15px;
+    color: white;
+    display: none;
+    background-color: none;
+}
+
+/*
+**/
+
+aside{
+    float: left;
+    width:45%;
+
+}
+
+#derecha{
+    float: left;
+    width: 45%;
+}
+
+.footer {
+
+    clear: left;
+    position: relative;
+    text-align: center;
+   
+  }
+  p{
+    display: inline-block;
+    padding: 10%;
+}
+body{
+     
+    background-image: radial-gradient(circle at 50% 20.56%, #ea79ff 0, #9e5fff 25%, #4d42d4 50%, #002698 75%, #000d64 100%);
+    /* https://mybrandnewlogo.com/es/generador-de-gradiente-de-color , pagina  utilizada para el fondo del body
+    **/
+}
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: yellow;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+i{
+    padding-right: 15px;
+}
